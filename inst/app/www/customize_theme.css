@@ -1,0 +1,44 @@
+/*This doc contains small changes to theme */
+
+/*tabset panel*/
+.tabset-panel {
+  width: 10px;
+}
+
+/*footer formating*/
+.footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color: white;
+  z-index: 10000;
+}
+
+/* controls location and scrollability of notifications*/
+.shiny-notification-panel {
+  position:relative;
+  top: 0;
+  bottom: unset;
+  right: 0;
+  width: 300px; /* Set the width */
+  overflow: auto;
+  z-index: 20001;
+}
+
+/* increase the z index of popups */
+.modal {
+  z-index: 10001;
+}
+
+/* place shinyglide next buttons */
+.next-screen {
+    position: absolute;
+    top: 0px; right: 0px;
+}
+
+/* place shinyglide prev buttons */
+.prev-screen {
+    position: absolute;
+    top: 0px; left: 0px;
+}
+
